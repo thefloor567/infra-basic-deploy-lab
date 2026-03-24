@@ -22,4 +22,9 @@ public class BackendController {
     public String backend3() {
         return "backend3";
     }
+    
+    @GetMapping("/backend4")
+    public String backend4() {
+        return "backend4";
+    }
 }
